@@ -1,0 +1,2 @@
+allow platform_app cgroup:file { open read };
+allow platform_app vendor_sysfs_kgsl:lnk_file read;
