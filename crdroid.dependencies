@@ -7,5 +7,11 @@
   {
     "repository": "crdroidandroid/android_vendor_xiaomi_thyme",
     "target_path": "vendor/xiaomi/thyme"
+  },
+  {
+    "repository": "crdroidandroid/proprietary_vendor_xiaomi_miuicamera",
+    "target_path": "vendor/xiaomi/miuicamera-thyme",
+    "branch": "15.0-thyme",
+    "remote": "crdroid-gitlab"
   }
 ]

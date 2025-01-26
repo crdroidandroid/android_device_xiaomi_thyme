@@ -41,6 +41,9 @@ TARGET_HAS_UDFPS := true
 PRODUCT_PACKAGES += \
     ThymeNfcOverlay
 
+# MiuiCamera
+$(call inherit-product-if-exists, vendor/xiaomi/miuicamera-thyme/miuicamera.mk)
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
